@@ -1,0 +1,35 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "add my first cli",
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "author": "j.yangf <j.yangf@ctrip.com>",
+  "homepage": "https://github.com/melodyJie/StudyDemo#readme",
+  "license": "ISC",
+  "main": "lib/my-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.release.ctripcorp.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melodyJie/StudyDemo.git",
+    "directory": "packages/my-cli"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm i && npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/melodyJie/StudyDemo/issues"
+  }
+}
