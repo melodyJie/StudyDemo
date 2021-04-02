@@ -31,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/melodyJie/StudyDemo/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
   }
 }
