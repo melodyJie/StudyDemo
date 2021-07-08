@@ -1,0 +1,30 @@
+{
+  "name": "test-assets-demo",
+  "version": "0.0.1",
+  "description": "test demo",
+  "keywords": [
+    "test",
+    "demo"
+  ],
+  "author": "melodyJie <735905982@qq.com>",
+  "homepage": "https://github.com/melodyJie/StudyDemo#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melodyJie/StudyDemo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/melodyJie/StudyDemo/issues"
+  }
+}
