@@ -29,6 +29,9 @@
     "removeComments": false,
     "declaration": true
   },
+  "include": [
+    "packages/**/*",
+  ],
   "exclude": [
     "node_modules",
     "lib",

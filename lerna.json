@@ -1,7 +1,17 @@
 {
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "package-lock.json"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
   "packages": [
     "packages/*"
-  ],
-  "version": "independent",
-  "npmClient": "yarn"
+  ]
 }
