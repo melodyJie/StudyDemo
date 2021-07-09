@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: ['@commitlint/config-angular', '@commitlint/config-lerna-scopes'],
+    extends: ['@commitlint/config-angular'],
     rules: {
       "header-max-length": [0, "always", 100],
       "type-enum": [
@@ -18,13 +18,6 @@ module.exports = {
           'chore',
           'style',
           'test'
-        ]
-      ],
-      "scope-enum": [
-        2,
-        'always',
-        [
-          "component",
         ]
       ],
     },
