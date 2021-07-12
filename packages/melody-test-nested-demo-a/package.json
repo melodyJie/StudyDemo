@@ -1,0 +1,26 @@
+{
+  "name": "melody-test-nested-demo-a",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "melodyJie <735905982@qq.com>",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melodyJie/StudyDemo.git"
+  },
+  "scripts": {
+    "build:ts": "tsc",
+    "build:babel": "cross-env NODE_ENV=production babel --extensions .js,.jsx,.ts,.tsx --config-file ../../babel.config.js ./src --out-dir ./lib --copy-files --ignore *.test.js",
+    "build": "yarn build:ts && yarn build:babel",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/melodyJie/StudyDemo/issues"
+  }
+}
